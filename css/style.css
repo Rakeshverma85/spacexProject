@@ -1,0 +1,143 @@
+body
+{
+	background-color: #F2F2F2;
+}
+#launch-area
+{
+	
+	margin:20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	height: auto;
+}
+#launch-area h2
+{
+	font-size: 25px;
+	font-weight: 700;
+}
+#launch-area h4
+{
+	font-size: 18px;
+	margin: 20px;
+}
+#launch-area h5
+{
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+#launch-area h5::before
+{
+content: "";
+background-color:lightgray;
+width: 150px;
+height: 2px;
+position: absolute;
+top: 18px;
+left: 52px;
+}
+
+
+#launch-area  #filter-area
+{
+	width: 250px;
+	float: left;
+	background-color: #ffffff;
+	padding-bottom: 80px;
+	margin-top: 5px;
+    margin-right: 10px;
+}
+#launch-area  #filter-area  ul
+{
+	list-style: none;
+	margin:0;
+	padding: 0px;
+}
+#launch-area  #filter-area   ul li
+{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background-color: #C5E09B;
+	margin-top: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin-right:20px;
+	margin-left:20px;
+}
+#launch-area  #filter-area  ul li a
+{
+	text-decoration: none;
+	color: black;
+	display:block;
+}
+
+#launch-area #launchItems
+{
+margin: 0px;
+}
+#launch-area #launchItems .launchDetails
+{
+
+	background-color: #ffffff;
+	margin: 5px 8px;
+	padding: 20px;
+	border-radius: 5px;
+	
+}
+#launch-area #launchItems .launchDetails img
+{
+	width: 150px;
+	background-color: #F2F2F2;
+	display: block;
+	margin: 20px auto
+	
+}
+
+#launch-area #launchItems .launchDetails h6
+{
+	text-align: 14px;
+	color: #404B9B;
+}
+
+#launch-area #launchItems .launchDetails ul 
+{
+	color:#404B9B;
+	margin-top: 0px;
+	
+}
+
+#launch-area #launchItems .launchDetails p
+{
+	
+	text-align: 10px !important;
+	font-weight: 700 !important;
+}
+#launch-area #launchItems .launchDetails p span
+{
+	color: #404B9B;
+	font-weight: 400 ;
+
+}
+#launch-area #launchItems .col-md-3 {
+   
+    max-width: 23%;
+}
+#launch-area #filter-area ul li.active{background-color: #7CBA01;}
+		.launchSuccess ul li.active{background-color: #7CBA01;}
+		.landingSuccess ul li.active{background-color: #7CBA01;}
+
+
+footer
+{
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+footer span 
+{
+	font-size: 18px;
+	font-weight: 400;
+}
